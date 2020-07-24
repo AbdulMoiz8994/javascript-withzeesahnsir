@@ -19,7 +19,7 @@
 // nationality = "India";
 // console.log(nationality);
 // console.log(feePaid);
-var age = prompt ("what is your age?");
-console.log(age);
-var name = prompt("what is your name");
-console.log(name);
+// var age = prompt ("what is your age?");
+// console.log(age);
+// var name = prompt("what is your name");
+// console.log(name);
