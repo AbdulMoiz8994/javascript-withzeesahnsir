@@ -1,20 +1,39 @@
-var name = prompt("what is your name?" , "Abdul moiz")
-console.log(name);
-var age = prompt("what is your age?");
+// var name = prompt("what is your name?" , "Abdul moiz")
+// console.log(name);
+// var age = prompt("what is your age?");
+// console.log(age);
+// var age = prompt("what is your age?");
+// console.log(age);
+// var newAge = 5 + age;
+// console.log(newAge);
+// var a = 6; 
+// var b = prompt("what is your age?");
+// var c = Number(b);
+// var d = a + c;
+// console.log(c)
+// console.log(d);
+// console.log(Number(true));
+// var a = 10;
+// var b = prompt("what is your name?");
+// var c = parseFloat(b);
+// var d = a + c;
+// console.log(d);
+// alert("hello moiz");
+var age = "null";
+var fullName = "abdul moiz";
+var lastName = "Attari";
+var isfeePaid = true;
+var nationality = "Pakistani";
+var submit;
+console.log(fullName);
+var fullName = "abdul moiz khanzda";
+console.log(fullName);
 console.log(age);
-var age = prompt("what is your age?");
-console.log(age);
-var newAge = 5 + age;
-console.log(newAge);
-var a = 6; 
-var b = prompt("what is your age?");
-var c = Number(b);
-var d = a + c;
-console.log(c)
-console.log(d);
-console.log(Number(true));
+console.log(lastName);
+console.log(isfeePaid);
+console.log(nationality);
+console.log(submit);
 var a = 10;
-var b = prompt("what is your name?");
-var c = parseFloat(b);
-var d = a + c;
-console.log(d);
+var b = 9;
+var c = a++ + --b - --a;
+console.log(c);
