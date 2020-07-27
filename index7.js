@@ -34,13 +34,20 @@
 // console.log(a >= b);
 // console.log(a <= b);
 
-var a = 10;
-var b = "10";
+// var a = 10;
+// var b = "10";
 
-console.log(a == b);
-console.log(a === b);
-var a = 10;
-var b = "10";
-console.log(a == b);
-console.log(a === b);
-var a
+// console.log(a == b);
+// console.log(a === b);
+// var a = 10;
+// var b = "10";
+// console.log(a == b);
+// console.log(a === b);
+
+// var a = 60;
+// var b = a > 50 && a < 70;
+// console.log(b); 
+var a = 5;
+var b = 6;
+var c = a < b && b < 10 || a === 5;
+console.log(c);
