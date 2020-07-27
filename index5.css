@@ -1,0 +1,43 @@
+h1, h2{
+    text-indent: 50px;
+}
+/* p{
+    background-color: #eeeeee;
+    color: #006666;
+    text-shadow: 2px 3px 30px #000000;
+} */
+/* p.change::first-letter{
+    font-size: 100px;
+    color: fuchsia;
+    font-weight: bolder;
+}
+a.link:link{
+    color: fuchsia;
+    text-decoration: none;
+}
+a.link:visited{
+    color: indigo;
+    background-color: lightseagreen;
+} */
+/* input:hover{
+    background-color: rgb(0,250,154);
+}
+input:focus{
+    background-color: rebeccapurple;
+}
+button:active{
+    background-color: rgb(0,250,154);
+} */
+/* p[class]{
+    color: lawngreen;
+} */
+/* p[class="link"]{
+    color: lightsalmon;
+}
+p[class~="change"]{
+    color: lightsalmon;
+} */
+/* p[attr$"g"]
+{
+    color: lime;
+} */
