@@ -1,0 +1,25 @@
+// var a = 3;
+// var b = prompt("what is your age");
+// var c = Number(b);
+// var d = a * c
+// console.log(d);
+// var a = 7;
+// var b = 12;
+// console.log(a < 12 && b > 10 && b != 12);
+// var a = 10;
+// var b = 11.67;
+// var c = a + parseInt(b);
+// console.log(c);
+// var a = 10;
+// var b = 11.67;
+// var c = a + parseFloat(b);
+// console.log(c);
+var a = 3;
+console.log(a == 6);
+console.log(a === 6);
+console.log(a != 6);
+console.log(a !== 6);
+console.log(a > 6);
+console.log(a < 6);
+console.log(a >= 6);
+console.log(a <= 6);
