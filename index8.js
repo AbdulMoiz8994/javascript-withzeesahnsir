@@ -58,5 +58,24 @@
 // console.log("E = "+e);
 // alert(!1);
 // alert(!0);
-alert(!!45);
-alert(!!56);
+
+// alert(!!45);
+// alert(!!56)
+var a = -6;
+var b = !a;
+var c = !!a;
+console.log("A = "+a);
+console.log("B = "+b);
+console.log("C = "+c);
+var a = 0;
+var b = !a;
+var c = !!a;
+console.log("A = "+a);
+console.log("B = "+b);
+console.log("C = "+c);
+var a = 6;
+var b = !a;
+var c = !!a;
+console.log("A = "+a);
+console.log("B = "+b);
+console.log("C = "+c);
