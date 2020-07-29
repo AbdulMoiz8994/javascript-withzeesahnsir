@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: brown;
+    text-shadow: 10px 2px 10px black;
+}
+ul{
+    /* list-style-type: circle; */
+    /* list-style-type: disc; */
+    /* list-style-type:square; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type:lower-greek; */
+    /* list-style-image: url('https://image.shutterstock.com/image-vector/star-vector-icon-260nw-660000226.jpg'); */
+}
