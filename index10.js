@@ -142,21 +142,21 @@
 // else{
 //     alert("Not Allow")
 // }
-var score = 69.99;
-if(score >= 80 && score <= 100){
-    console.log("Grade A");
-}
-else if(score >= 70 && score <=79.99){
-    console.log("Grade B")
-}
-else if (score >= 60 && score <=69.99){
-    console.log("Grade C");
-}
-var input = "A";
-if(input === "A" ||  input === "E" || input === "I" || input === "O" || input === "U"){
-    console.log("IT is a vowel");
-}
-else{
-    console.log("It is an constant");
-}
+// var score = 69.99;
+// if(score >= 80 && score <= 100){
+//     console.log("Grade A");
+// }
+// else if(score >= 70 && score <=79.99){
+//     console.log("Grade B")
+// }
+// else if (score >= 60 && score <=69.99){
+//     console.log("Grade C");
+// }
+// var input = "A";
+// if(input === "A" ||  input === "E" || input === "I" || input === "O" || input === "U"){
+//     console.log("IT is a vowel");
+// }
+// else{
+//     console.log("It is an constant");
+// }
 
