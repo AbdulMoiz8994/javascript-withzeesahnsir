@@ -152,8 +152,8 @@ else if(score >= 70 && score <=79.99){
 else if (score >= 60 && score <=69.99){
     console.log("Grade C");
 }
-var input = "M";
-if(input === "A" ||  input === "E" || input || "I" || input === "O" || input == "U"){
+var input = "A";
+if(input === "A" ||  input === "E" || input === "I" || input === "O" || input === "U"){
     console.log("IT is a vowel");
 }
 else{
