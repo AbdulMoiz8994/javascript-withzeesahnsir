@@ -102,9 +102,17 @@
 // console.log(typeof d);
 // console.log(typeof e);
 // console.log(typeof a);
-var age = 34;
-console.log(age);
-age = "hello";
-console.log(age);
-age = true;
-console.log(age);
+// var age = 34;
+// console.log(age);
+// age = "hello";
+// console.log(age);
+// age = true;
+// console.log(age);
+var _xyz=56;
+console.log(_xyz);
+var Name ="abdul moiz"
+console.log(Name);
+var i_work = "khan";
+console.log(i_work);
+var age1 =67;
+console.log(age1);
