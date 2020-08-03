@@ -1,0 +1,16 @@
+body{
+    color: blue;
+    padding: 50px;
+}
+p{
+    padding: inherit;
+}
+div{
+    color: rgb(255, 0, 0);
+}
+a{
+    color: inherit;
+}
+p{
+    color: #008080;
+}
