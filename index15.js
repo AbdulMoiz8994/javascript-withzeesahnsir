@@ -70,10 +70,31 @@
 // console.log(--a)
 // console.log(a--)
 // console.log(a++)
-var a= 10;
-var b = ++a;
-var c = a++ - 5 + --b + --a;
+// var a= 10;
+// var b = ++a;
+// var c = a++ - 5 + --b + --a;
 
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// var a= 10;
+// var b = 25;
+// var c = 12;
+// var d = a++ - --b + ++a - c--;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// var a = 15;
+// var b = 17;
+// var c = 23;
+// var d = a-- + ++b - a++ + ++c;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+var a = "hello "+1;
+var a = 2+4+" hello ";
+var a = "6" + 2 + 4;
+var a = 10 + 20 +" 6";
 console.log(a);
-console.log(b);
-console.log(c);
