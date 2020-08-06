@@ -99,7 +99,10 @@ label{
     width: 75px;
     text-align: right;
 }  */ 
-body{
+/* body{
     width: 750px;
     position: relative;
+} */
+.black{
+    background-color: black;
 }
