@@ -1,8 +1,8 @@
-body{
+/* body{
     color: blue;
     padding: 50px;
-}
-p{
+} */
+/* p{
     padding: inherit;
 }
 div{
@@ -13,6 +13,23 @@ a{
 }
 p{
     color: #008080;
+} */
+.first{
+    width: 320px;
+    height: 30px;
+    background-color: rebeccapurple;
+    float: left;
+}    
+.second{
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    float: right;
+    /* boot-s */
 }
-/* flutter */
-/* export PATH="$PATH:/home/abdulmoiz/Desktop/flutter_linux_1.17.5-stable/flutter/bin" */
+p{
+    clear: both;
+}
+
+/* flutter
+export PATH="$PATH:/home/abdulmoiz/Desktop/flutter_linux_1.17.5-stable/flutter/bin" */
