@@ -65,6 +65,6 @@
 // var a = score >= 80 && score < 70;
 // console.log(a);
 // var score = 80;
-var score = 71;
-var a = score > 80 || score > 70;
-console.log(a);
+// var score = 71;
+// var a = score > 80 || score > 70;
+// console.log(a);
