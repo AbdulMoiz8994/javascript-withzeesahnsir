@@ -68,3 +68,6 @@
 // var score = 71;
 // var a = score > 80 || score > 70;
 // console.log(a);
+for(var a=10; a >0; a--){
+    console.log(a);
+}
