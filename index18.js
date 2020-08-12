@@ -116,19 +116,19 @@
 // var a = 10;
 // for(var a =10;a>0;a--){
 //  console.log(a);
+//}
+// var a =20;
+// for(var a = 20;a<=30;a++){
+//     console.log(a);
 // }
-var a =20;
-for(var a = 20;a<=30;a++){
-    console.log(a);
-}
-var b = 16;
-for(var b=16;b>5;b--){
-    console.log(b)
-}
-var c =30;
-var d = 1;
-for(var c =30;c>d;c--){
-    console.log(c);
-}
+// var b = 16;
+// for(var b=16;b>5;b--){
+//     console.log(b)
+// }
+// var c =30;
+// var d = 1;
+// for(var c =30;c>d;c--){
+//     console.log(c);
+// }
 
 
