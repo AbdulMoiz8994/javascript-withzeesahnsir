@@ -84,7 +84,51 @@
 // else{
 //     console.log("It is normal");
 // }
-var age = 40;
-if(age>60){
-    console.log("If Age ="+age)
+// var name;
+// if(name){
+//     console.log("If Name = "+name);
+// }    
+// }else{
+//     console.log("In else name ="+name);
+// }
+// var a = true;
+// if(a){
+//     console.log("if a ="+a);
+// }else{
+//     console.log("else a ="+a);
+// }
+// var a = "cat" && "Dog";
+// console.log(a);
+// var b = false || "";
+// console.log(b);
+// var b = "" || false
+// console.log(b);
+// var a = 10;
+// var b = 18;
+// var c = "" || 0 || "hello";
+// console.log(c);
+// var a = true && {};
+// console.log(a)
+// var a = true && [];
+// console.log(a)
+// var c = "" || [];
+// console.log(c);
+// var a = 10;
+// for(var a =10;a>0;a--){
+//  console.log(a);
+// }
+var a =20;
+for(var a = 20;a<=30;a++){
+    console.log(a);
 }
+var b = 16;
+for(var b=16;b>5;b--){
+    console.log(b)
+}
+var c =30;
+var d = 1;
+for(var c =30;c>d;c--){
+    console.log(c);
+}
+
+
