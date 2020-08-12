@@ -22,7 +22,19 @@
 //   Age = ${age}
 //   Nationality = ${nationality}
 // `)
-var num=parseInt (prompt("what is the number"));
-for(var i=1; i<=10;i++){
-    console.log(num+" x " +i+ " = "+(num*i));
+// var num=parseInt (prompt("what is the number"));
+// for(var i=1; i<=10;i++){
+//     console.log(num+" x " +i+ " = "+(num*i));
+// }
+for(var i=0;i<8;i++){
+    if(i==5){
+        break;
+    }
+    console.log("I ="+i);
+}
+for(var a=0;a<15;i++){
+    if(a==5){
+        continue
+    }
+    console.log("I = "+a);
 }
