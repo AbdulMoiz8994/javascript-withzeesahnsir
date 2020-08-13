@@ -26,15 +26,27 @@
 // for(var i=1; i<=10;i++){
 //     console.log(num+" x " +i+ " = "+(num*i));
 // }
-for(var i=0;i<8;i++){
-    if(i==5){
+// for(var i=0;i<8;i++){
+//     if(i==5){
+//         break;
+//     }
+//     console.log("I ="+i);
+// }
+// for(var a=0;a<15;a++){
+//     if(a==5){
+//         continue;
+//     }
+//     console.log("I = "+a);
+// }
+for(var a=10;a>=3;a--){
+    if(a==4){
         break;
-    }
-    console.log("I ="+i);
-}
-for(var a=0;a<15;i++){
-    if(a==5){
-        continue
     }
     console.log("I = "+a);
 }
+// for(var a=0;a<8;a++){
+//     if(a==4){
+//         continue;
+//     }
+//     console.log("A = "+a);
+// }
