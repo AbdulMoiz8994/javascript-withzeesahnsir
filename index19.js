@@ -38,13 +38,13 @@
 //     }
 //     console.log("I = "+a);
 // }
-for(var a=10;a>=3;a--){
-    if(a==4){
-        break;
-    }
-    console.log("I = "+a);
-}
-// for(var a=0;a<8;a++){
+// for(var a=10;a>=3;a--){
+//     if(a==4){
+//         break;
+//     }
+//     console.log("I = "+a);
+// }
+// // for(var a=0;a<8;a++){
 //     if(a==4){
 //         continue;
 //     }
