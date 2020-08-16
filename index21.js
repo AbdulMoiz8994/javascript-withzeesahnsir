@@ -53,9 +53,9 @@ var c =30;
 //     console.log(number+" x "+a+" = "+(number*a));
 // }
 var num = parseInt(prompt("Please enter tabel"));
-for(var a=2;a<num;a++);{
+for(var a=2;a<num;a++){
     var result = num%a;
     if(result==0){
-        console.log("This number is not prime");
+        console.log("This number is not prime "+num +" A / "+a);
     }
 }
