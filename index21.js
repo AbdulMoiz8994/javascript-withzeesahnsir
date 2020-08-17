@@ -111,4 +111,3 @@ console.log(foods);
 console.log(foods[1]);
 // foods [7] = "PIZZA";
 // console.log(foods);
-
