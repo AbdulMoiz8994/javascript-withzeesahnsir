@@ -107,22 +107,50 @@
 // console.log(b);
 // console.log(c);
 // console.log(d);
-var score =Number(prompt("what is your score"));
-if(score>=80 && score<=99){
-    console.log("Grade A1")
-}
-else if(score>=70 && score<=79.99){
-    console.log("Grade A")
-}
-else if(score>=60 && score<=69.99){
-    console.log("Grade B")
-}
-else if(score>=55 && score<=59.99){
-    console.log("Grade c")
-}
-else if(score>=40 && score<=49.99){
-    console.log("Pass")
-}
-else{
-    console.log("Fail")
+// var score =Number(prompt("what is your score"));
+// if(score>=80 && score<=99){
+//     console.log("Grade A1")
+// }
+// else if(score>=70 && score<=79.99){
+//     console.log("Grade A")
+// }
+// else if(score>=60 && score<=69.99){
+//     console.log("Grade B")
+// }
+// else if(score>=55 && score<=59.99){
+//     console.log("Grade c")
+// }
+// else if(score>=40 && score<=49.99){
+//     console.log("Pass")
+// }
+// else{
+//     console.log("Fail")
+// }
+// var a= 23
+// var a = "cat" && 23;
+// console.log(a);
+// var b = 0 || null;
+// console.log(b);
+// var c = [] || 23;
+// console.log(c);
+// for(var a=1;a<10;a++){
+//     console.log(a)
+// }
+// var num =20
+// for(var a=1;a<10;a++){
+//     if(a==11){
+//         break;
+//     }
+//     console.log(a);
+// }
+// var num =9
+// for(var a=20;a>num;a--){
+//     if(a==11){
+//         continue;
+//     }
+//     console.log(a);
+// }
+var table =Number(prompt("PLease Write your Favourite Table"));
+for(var a=1;a<=10;a++){
+    console.log(table+" x "+a+" = "+(table*a));
 }
