@@ -54,3 +54,4 @@ arr1.push(9);
 arr1.push(8);
 arr1.push(7);
 console.log(arr1[0]);
+console.log(arr1);
