@@ -45,5 +45,4 @@ console.log("lenglth = "+foods.length);
 console.log(foods.shift());
 console.log(foods);
 var a = foods.shift();
-lists.unshift("abdul moiz");
-console.log(lists);
+

@@ -17,3 +17,5 @@ lists.push("rafay");
 lists.push("basit");
 lists.unshift("abdul moiz");
 console.log(lists);
+lists.unshift("khanzada123");
+console.log(lists);
