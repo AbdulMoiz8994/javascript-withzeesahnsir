@@ -45,5 +45,5 @@ console.log("lenglth = "+foods.length);
 console.log(foods.shift());
 console.log(foods);
 var a = foods.shift();
-console.log(a);
-
+lists.unshift("abdul moiz");
+console.log(lists);
