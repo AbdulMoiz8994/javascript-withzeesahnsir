@@ -25,9 +25,25 @@ console.log(a);
 //         console.log("A = "+a+ " B = "+b)
 //     }
 // }
-var num = prompt("what is your nub");
-for(var a=0;a<num;a++){
-    for(var b=0;b<num;b++){
-        console.log("A = "+a+ " B = "+b);
-    }
-}
+// var num = prompt("what is your nub");
+// for(var a=0;a<num;a++){
+//     for(var b=0;b<num;b++){
+//         console.log("A = "+a+ " B = "+b);
+//     }
+// }
+// var foods = ["mango","banana","orange"];
+// console.log(foods);
+// var a = foods.pop();
+// console.log("A = "+a);
+// var b = foods.pop();
+// console.log("B = "+b);
+// console.log(foods);
+// console.log("lenglth = "+foods.length);
+var foods = ["vegetable","Mango","bananaa","orange"];
+console.log(foods);
+console.log("lenglth = "+foods.length);
+console.log(foods.shift());
+console.log(foods);
+var a = foods.shift();
+console.log(a);
+
