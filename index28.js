@@ -42,10 +42,30 @@ console.log(`
 // for(var a=0;a<foods.length;a++){
 //     console.log(foods[a]);
 // }
-var arr1 = [4,6,8,10,12];
-for(var a=0;a<arr1.length;a++){
-    arr1[a] = arr1[a]*2;
+// var arr1 = [4,6,8,10,12,1];
+// for(var a=1;a<arr1.length;a++){
+//     arr1[a] = arr1[a]*2;
+//     // console.log(arr1[a]);
+// }
+// for(var b =0;b<arr1.length;b++){
+//     console.log(arr1[b]);
+// }
+var arr = [32,45,76,64,72,83];
+var input = parseInt(prompt("Please write the array number"));
+
+console.log("User input "+input);
+var found = false;
+for(var a=0;a<arr.length;a++){
+    // console.log(arr[a]);
+    if(arr[a] === input){
+        console.log("Found "+input+" on index = "+a)
+        found = true;
+        break;
+    }
+    // else{
+    //     console.log("not found");
+    // }
 }
-for(var b =0;b<arr1.length;b++){
-    console.log(arr1[b]);
+if(!found){
+    console.log("Not found");
 }
