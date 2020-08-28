@@ -50,22 +50,32 @@ console.log(`
 // for(var b =0;b<arr1.length;b++){
 //     console.log(arr1[b]);
 // }
-var arr = [32,45,76,64,72,83];
-var input = parseInt(prompt("Please write the array number"));
+// var arr = [32,45,76,64,72,83];
+// var input = parseInt(prompt("Please write the array number"));
 
-console.log("User input "+input);
-var found = false;
-for(var a=0;a<arr.length;a++){
-    // console.log(arr[a]);
-    if(arr[a] === input){
-        console.log("Found "+input+" on index = "+a)
-        found = true;
-        break;
-    }
-    // else{
-    //     console.log("not found");
-    // }
-}
-if(!found){
-    console.log("Not found");
-}
+// console.log("User input "+input);
+// var found = false;
+// for(var a=0;a<arr.length;a++){
+//     // console.log(arr[a]);
+//     if(arr[a] === input){
+//         console.log("Found "+input+" on index = "+a)
+//         found = true;
+//         break;
+//     }
+//     // else{
+//     //     console.log("not found");
+//     // }
+// }
+// if(!found){
+//     console.log("Not found");
+// }
+// var foods = ["pizza","sandwich","Burger","Snacks"];
+// console.log(foods);
+// foods.splice(1,0,"Fries");
+// console.log(foods);
+// foods.splice(2,3,"khanzada123");
+// console.log(foods);
+// var arr2 =foods.slice(0,2);
+// console.log(arr2);
+var arr1 = [1,2,34,56,78,35,86,67];
+console.log(arr1.slice(1));
