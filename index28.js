@@ -77,5 +77,12 @@ console.log(`
 // console.log(foods);
 // var arr2 =foods.slice(0,2);
 // console.log(arr2);
-var arr1 = [1,2,34,56,78,35,86,67];
+// var arr1 = [1,2,34,56,78,35,86,67];
+// console.log(arr1.slice(1));
+var arr1 = ["pizza","Mango","Orange","Burger"];
+// arr1.slice(2);
 console.log(arr1.slice(1));
+var arr2 = [1,2,3,4,5,67,5];
+console.log(arr2);
+console.log(arr2.slice(2,5));
+console.log(arr1.length);
