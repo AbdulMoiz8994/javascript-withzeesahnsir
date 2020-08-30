@@ -81,8 +81,34 @@ console.log(`
 // console.log(arr1.slice(1));
 var arr1 = ["pizza","Mango","Orange","Burger"];
 // arr1.slice(2);
-console.log(arr1.slice(1));
-var arr2 = [1,2,3,4,5,67,5];
-console.log(arr2);
-console.log(arr2.slice(2,5));
-console.log(arr1.length);
+// console.log(arr1.slice(1));
+// var arr2 = [1,2,3,4,5,67,5];
+// console.log(arr2);
+// console.log(arr2.slice(2,5));
+// console.log(arr1.length);
+// var a = "hello\"World";
+// console.log(a);
+// a = "hello\'world";
+// console.log(a);
+// a = "hello\\world";
+// console.log(a);
+// a= "hello\nworld";
+// console.log(a);
+// a ="\thelloworld";
+// console.log(a);
+var arr2 = ("hello","moiz","malik","rafay");
+console.log(arr2.toLocaleUpperCase());
+var food = "piZZa";
+var input = "pizzA";
+console.log(food.toLocaleUpperCase());
+console.log(food.toLowerCase());
+if(food.toLowerCase() === input.toLowerCase()){
+   console.log("Match");
+}
+else{
+   console.log("Dont Not Match");
+}
+var b = "hello world";
+console.log(b);
+c =b.slice(4,7)
+console.log(c);
