@@ -79,5 +79,5 @@ var e = "hello, moizkhanzada";
 console.log(e.split(" "));
 var f = " helo moiz|khanzada123";
 console.log(f.split("|"));
-var g = "helomoiz,khanzada123";
+var g = "helo,moiz,khanzada123";
 console.log(g.split(","))
