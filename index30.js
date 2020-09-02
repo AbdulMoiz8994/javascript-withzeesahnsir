@@ -23,15 +23,19 @@
 // console.log(e);
 // var f = ("abdul moiz  Attari khanzada");
 // console.log(f.toLocaleUpperCase());
-var foods = ("sANDWICH");
-var input =(prompt("please select one"));
-console.log("User Input = "+input);
-if(foods.toLocaleLowerCase() === input.toLocaleLowerCase()){
-    console.log("Match");
-}
-else{
-    console.log("Do Not Match");
-}
-var a = foods.slice(1,4);
-console.log(a);
+// var foods = ("sANDWICH");
+// var input =(prompt("please select one"));
+// console.log("User Input = "+input);
+// if(foods.toLocaleLowerCase() === input.toLocaleLowerCase()){
+//     console.log("Match");
+// }
+// else{
+//     console.log("Do Not Match");
+// }
 
+// var a = foods.slice(1,7);
+// console.log(a);
+var a = "abdul moiz khanzada attari";
+console.log(a.indexOf("zada attari"));
+var b = a.slice(-26,-1);
+console.log(b);
