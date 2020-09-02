@@ -35,7 +35,14 @@
 
 // var a = foods.slice(1,7);
 // console.log(a);
-var a = "abdul moiz khanzada attari";
+var a = "abdul moiz khanzada attari moiz";
 console.log(a.indexOf("zada attari"));
 var b = a.slice(-26,-1);
 console.log(b);
+var c = a.charAt(11);
+console.log(c);
+var c = a.replace("moiz","rafay");
+console.log(c);
+var d = a.replace(/moiz/i,"rafay");
+console.log(d);
+
