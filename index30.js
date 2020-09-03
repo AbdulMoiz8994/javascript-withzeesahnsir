@@ -113,3 +113,4 @@
 var num = (49+56-71)/3;
 console.log(num);
 console.log(num.toFixed(3));
+var num1 = (23/2)
