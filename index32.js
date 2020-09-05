@@ -28,4 +28,5 @@ var date4= date3.getTime();
 console.log(date4);
 var date5 = new Date(0);
 console.log(date5);
-
+var name = "abdul moiz";
+console.log(name);
