@@ -1,0 +1,46 @@
+/* body{ */
+    /* background-color: blue; */
+/* } */
+/* media query */
+img{
+    width: 600px;
+}
+@media only screen and (max-width: 600px){
+    img{
+        width: 400px;
+    }
+} 
+@media only screen and (max-width: 400px){
+    img{
+        width: 200px;
+    }
+} 
+/* end of media query */
+/* starting flexbox */
+/* properties */
+.one,.two,.three{
+    border: 2px solid brown;
+    width: 230px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+/* this is are width properties */
+/* .one{
+    flex: 2;
+}
+.two{
+    flex: 3;
+}
+.three{
+    flex: 2;
+} */
