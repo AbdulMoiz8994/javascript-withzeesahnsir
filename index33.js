@@ -52,10 +52,12 @@
 // console.log(d1.setDate(15));
 // console.log(d1);
 var d1 = new Date("July,15,2020 12:10:30");
-var d2 = new Date("July,15,2020 12:20:30");
-var timeDiff = d2.getTime()-d1.getTime();
+var d2 = new Date("July,16,2020 12:20:30");
+var timeDiff = d2.getTime() - d1.getTime();
 console.log(timeDiff);
 var timeInDay = 24*60*60*1000;
 console.log(timeInDay);
-totalTime = timeDiff/timeInDay;
-console.log(totalTime);
+var remainDays = timeDiff/timeInDay;
+var totalremaingdays =Math.floor(remainDays);
+console.log(totalremaingdays);
+console.log(totalremaingdays+" Day remaning Only");
