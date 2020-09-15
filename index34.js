@@ -91,3 +91,7 @@ var totalTimeDiff = timeDate/dayInTime;
 var remainDays = Math.floor(totalTimeDiff);
 console.log(remainDays+" Days Remaining");
 // console.log(totalTimeDiff);
+function name(num1,num2,num3){
+    console.log(num1+num2+num3)
+}
+name(12,5,78,84);
