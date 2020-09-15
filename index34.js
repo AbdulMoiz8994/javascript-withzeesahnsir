@@ -5,4 +5,4 @@
 function name(){
     console.log("heloo world");
 }
-name(34);
+name();
