@@ -53,14 +53,14 @@
 // // var add = sum(20,20)+10; 
 // // console.log(add);
 // // // console.log(sum(10,10)+6);
-function multipy(nub1,nub2){
-    return nub1*nub2;
-}
-function sum(a,b){
-    return a+b;
-}
-var total = sum(multipy(7,8),2)+2;
-console.log(total);
+// function multipy(nub1,nub2){
+    // return nub1*nub2;
+// }
+// function sum(a,b){
+    // return a+b;
+// }
+// var total = sum(multipy(7,8),2)+2;
+// console.log(total);
 // function multipy(nub1,nub2){
 //     return nub1*nub2
 // }
@@ -77,3 +77,11 @@ console.log(total);
 // console.log("addition = "+add);
 // var grade = parseInt(prompt("Please type your nub"));
 // grade>=80 && grade<=99 ? console.log("Grade A") : console.log("Fail");
+function num(num1,num2){
+    return num1*num2+num1
+}
+function sum(a,b){
+    return a-b;
+}
+var total = sum(num(5,10),2)-2;
+console.log(total);
