@@ -53,25 +53,27 @@
 // // var add = sum(20,20)+10; 
 // // console.log(add);
 // // // console.log(sum(10,10)+6);
-// function multipy(nub1,nub2){
-//     return nub1*nub2;
-// }
-// function sum(a,b){
-//     return a+b;
-// }
-// var total = sum(multipy(7,8),2)+6;
-// console.log(total);
 function multipy(nub1,nub2){
-    return nub1*nub2
+    return nub1*nub2;
 }
 function sum(a,b){
-    return multipy(a,b)+b
+    return a+b;
 }
-var add  =sum(5,19)
-console.log("addition = "+add);
+var total = sum(multipy(7,8),2)+2;
+console.log(total);
+// function multipy(nub1,nub2){
+//     return nub1*nub2
+// }
+// function sum(a,b){
+//     return multipy(a,b)+b
+// }
+// var add  =sum(5,19)
+// console.log("addition = "+add);
 // var mul = multipy(20,9);
 // var add = sum(mul,9);
 // console.log(mul);
 // console.log(add);
 // var add= sum(multipy(30,9),5);
 // console.log("addition = "+add);
+// var grade = parseInt(prompt("Please type your nub"));
+// grade>=80 && grade<=99 ? console.log("Grade A") : console.log("Fail");
